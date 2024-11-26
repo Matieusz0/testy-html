@@ -20,7 +20,7 @@
 
 h2 {
     position: absolute;
-    left: 50%;
+    left: 20%;
     background: var(--clr);
     font-size: 2em;
     font-weight: 400;
@@ -29,7 +29,7 @@ h2 {
     color: #000;
     padding: 0 10px;
     border-radius: 10px;
-    margin: 0;
+    margin: 30%;
 }
 
 h2::before {
@@ -60,10 +60,11 @@ h2::after {
     position: absolute;
     height: 20px;
     color: var(--clr);
-    top: 60px;
+    top: 34%;
     line-height: 20px;
     transform-origin: bottom;
-    animation: animate 2s linear infinite;
+    animation: animate 2s linear
+    infinite;
 }
 
 @keyframes animate {
@@ -79,7 +80,6 @@ h2::after {
 
     20% {
         transform: translateY(0) scaleY(1);
-        transform-origin: top;
     }
     
     70% {
