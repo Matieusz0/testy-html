@@ -7,7 +7,8 @@ const randomText = () => {
 
 const rain = () => {
     const e = document.createElement("div");
-    e.classList.add("drop");
+    e.classList.add("drop")
+    // tutaj mialem blad bo zamiast (e) mialem (b)
     cloud.appendChild(e);
 
     const left = Math.floor(Math.random() * 300);
