@@ -1,4 +1,4 @@
-const cloud = document.querySelector(".cloud");
+const cloud = document.querySelector('.cloud');
 
 const randomText = () => {
     const text = ("&$@*!&#$()")
@@ -8,7 +8,7 @@ const randomText = () => {
 const rain = () => {
     const e = document.createElement("div");
     e.classList.add("drop");
-    cloud.appendChild(b);
+    cloud.appendChild(e);
 
     const left = Math.floor(Math.random() * 300);
     const size = Math.random() * 1.5;
