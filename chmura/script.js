@@ -1,7 +1,7 @@
 const cloud = document.querySelector('.cloud');
 
 const randomText = () => {
-    const text = ("&$@*!&#$()")
+    const text = ("I")
     return text[Math.floor(Math.random() * text.length)];
 };
 
