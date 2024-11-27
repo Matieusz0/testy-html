@@ -1,7 +1,7 @@
 const cloud = document.querySelector('.cloud');
 
 const randomText = () => {
-    const text = ("I")
+    const text = ("IIII")
     return text[Math.floor(Math.random() * text.length)];
 };
 
