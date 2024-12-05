@@ -112,3 +112,17 @@ h2::after {
         filter: hue-rotate(360deg);
     }
 }
+
+button {
+    position: absolute;
+    left: 20%;
+    background: var(--clr);
+    font-size: 2em;
+    font-weight: 400;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    color: #000;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin: 30%;
+}
