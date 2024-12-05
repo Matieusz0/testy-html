@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", () => {
+
 const cloud = document.querySelector('.cloud');
 
 const randomText = () => {
@@ -29,3 +31,5 @@ const rain = () => {
 setInterval(() => 
     rain()
 , 20);
+
+});
