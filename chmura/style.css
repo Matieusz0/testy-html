@@ -115,7 +115,7 @@ h2::after {
 
 button {
     position: absolute;
-    left: 20%;
+    bottom: 0;
     background: var(--clr);
     font-size: 2em;
     font-weight: 400;
